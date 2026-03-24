@@ -26,19 +26,19 @@ A local Odoo instance management tool similar to [odoo.sh](https://www.odoo.sh) 
 ### Quick Install (One-line)
 
 ```bash
-curl -o /tmp/install.sh https://raw.githubusercontent.com/atakhadiviom/Odoo-Manager/main/install.sh && bash /tmp/install.sh
+curl -o /tmp/install.sh https://raw.githubusercontent.com/susaglam/Odoo-Manager/main/install.sh && bash /tmp/install.sh
 ```
 
 Or if curl caching is an issue:
 
 ```bash
-bash <(curl -s -H "Cache-Control: no-cache" https://raw.githubusercontent.com/atakhadiviom/Odoo-Manager/main/install.sh)
+bash <(curl -s -H "Cache-Control: no-cache" https://raw.githubusercontent.com/susaglam/Odoo-Manager/main/install.sh)
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/atakhadiviom/Odoo-Manager.git
+git clone https://github.com/susaglam/Odoo-Manager.git
 cd odoo-manager
 pip install -e .
 ```
@@ -233,7 +233,7 @@ odoo-manager git clone https://github.com/odoo/odoo.git
 odoo-manager git ls
 
 # Switch branches
-odoo-manager git checkout odoo 17.0
+odoo-manager git checkout odoo 19.0
 
 # Pull latest changes
 odoo-manager git pull odoo
@@ -249,7 +249,7 @@ odoo-manager env ls
 odoo-manager env create dev --tier dev
 
 # Deploy to environment
-odoo-manager env deploy 17.0 --environment dev
+odoo-manager env deploy 19.0 --environment dev
 
 # Promote to staging
 odoo-manager env promote dev staging
