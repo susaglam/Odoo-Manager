@@ -1,6 +1,6 @@
 #!/bin/bash
 # One-line installer for Odoo Manager
-# Usage: bash <(curl -s https://raw.githubusercontent.com/atakhadiviom/Odoo-Manager/main/install.sh)
+# Usage: bash <(curl -s https://raw.githubusercontent.com/susaglam/Odoo-Manager/main/install.sh)
 
 echo "=========================================="
 echo "Odoo Manager Installation"
